@@ -1,7 +1,7 @@
 body {
   margin: 0;
-  background-color: #f4f1f1; /* fundo claro */
-  color: #333; /* texto escuro */
+  background-color: #f4f1f1;
+  color: #333;
   font-family: Verdana, sans-serif;
 }
 
@@ -23,30 +23,15 @@ header p {
 /* Estrutura principal */
 .container {
   display: flex;
-  flex-wrap: wrap;
-  align-items: center;
   justify-content: center;
   padding: 40px;
 }
 
-/* Imagem */
-.profile {
-  flex: 1;
-  text-align: center;
-}
-
-.profile img {
-  width: 250px;
-  height: 250px;
-  border-radius: 50%;
-  object-fit: cover;
-}
-
 /* Texto */
 .content {
-  flex: 1;
   padding: 20px;
   max-width: 500px;
+  text-align: center;
 }
 
 .content h2 {
